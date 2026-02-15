@@ -1,0 +1,8 @@
+my-dq-project/
+├── .github/
+│   └── workflows/
+│       └── dq_validation.yml   # CI Pipeline tanımı
+├── data/
+│   └── amazon_orders.csv      # Test verisi
+├── dq_pipeline.py             # Doğrulama scripti (Pydantic veya GE)
+└── requirements.txt           # Gerekli kütüphaneler
